@@ -12,7 +12,7 @@ const secret = process.env.REACT_APP_SECRET
   useEffect(()=>{
     axios({
       url:"/v1/search/news.json",
-     params:{query:"짜장"},
+     params:{query:"냉면"},
       headers :{
         'X-Naver-Client-Id' : client_id,
         'X-Naver-Client-Secret': secret
